@@ -1,0 +1,63 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+.herocontainer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50rem;
+}
+.herochild1 {
+  height: 30rem;
+  width: 65rem;
+  margin-left: 6rem;
+  margin-top: 10rem;
+  padding-top: 4rem;
+  border-radius: 2rem;
+  background-color: rgb(247, 244, 244);
+}
+.herochild1 label {
+  font-size: 1.6rem;
+  font-weight: 450;
+  padding-left: 10rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.herochild1 h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  padding-left: 10rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.herochild1 p {
+  padding-right: 12rem;
+  font-size: 1.8rem;
+  padding-left: 10rem;
+  padding-right: 5rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.btn {
+  width: 12rem;
+  height: 5rem;
+  background-color: rgb(98, 43, 199);
+  color: white;
+  border-radius: 0.4rem;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-left: 10rem;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 1rem;
+}
+
+.herochild2 img {
+  width: 75%;
+  height: auto;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8rem;
+  box-shadow: 3rem 3rem rgb(147, 202, 221);
+  cursor: pointer;
+}

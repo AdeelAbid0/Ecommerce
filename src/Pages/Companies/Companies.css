@@ -1,0 +1,29 @@
+.companycontainer {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 18rem;
+  margin-top: 8rem;
+}
+.companychild1 {
+  background-color: rgb(243, 236, 236);
+  text-align: center;
+  padding-top: 3rem;
+  cursor: pointer;
+}
+.companychild1 p {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "Times New Roman", Times, serif;
+}
+.companychild1 h1 {
+  text-align: center;
+  display: inline;
+  padding: 1rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+}
+.companychild1 i {
+  text-align: center;
+  display: inline;
+}

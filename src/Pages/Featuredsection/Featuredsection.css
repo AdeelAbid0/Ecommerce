@@ -1,0 +1,8 @@
+.featuredproducts {
+  display: grid;
+  grid-template-columns: 30rem 30rem 30rem;
+  grid-template-rows: 45rem;
+  grid-column-gap: 5rem;
+  justify-content: center;
+  background-color: #f0e8e8;
+}

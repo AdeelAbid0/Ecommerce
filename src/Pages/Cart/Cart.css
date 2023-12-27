@@ -1,0 +1,99 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.cartsection {
+  width: 100%;
+  min-height: calc(100vh - 15rem);
+  overflow-y: auto;
+}
+
+table {
+  width: 90rem;
+  border-collapse: collapse;
+  margin-top: 6rem;
+  margin-left: 28rem;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  height: 8rem;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+th:first-child,
+td:first-child {
+  width: 30rem;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+  width: 12rem;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+  width: 12rem;
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+  width: 12rem;
+}
+
+th:nth-child(5),
+td:nth-child(5) {
+  width: 12rem;
+}
+
+th {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+td {
+  margin-top: 0.3rem;
+  height: 10rem;
+  text-align: center;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+}
+
+.incdecbtn button {
+  width: 2rem;
+  height: 2rem;
+  margin: 1rem;
+  font-weight: bold;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.totalprice {
+  width: 15rem;
+  height: 6rem;
+  font-size: 1.6rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-left: 97rem;
+  border-radius: 1rem;
+  margin-top: 5rem;
+  text-align: start;
+  padding-left: 1rem;
+  background-color: #db3434;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button.totalprice:hover {
+  background-color: #b92929;
+}
