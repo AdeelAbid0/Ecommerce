@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { remove, updateQuantity } from "../../store/Cartslice";
 import Formatprice from "../Formatprice/Formatprice";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+import Checkout from "../Checkout/Checkout";
 
 const Cart = () => {
   const dispatch = useDispatch();
@@ -122,24 +123,31 @@ const Cart = () => {
           Total: <Formatprice price={calculateTotal()} />
         </button>
       )}
-      <Link style={{ marginLeft: "-80rem" }} to={"/Products"}>
-        <Link
-          style={{ fontSize: "1.8rem", color: "red" }}
-          className="fa-solid fa-arrow-right"
-        ></Link>
-        <span
-          className="span"
-          style={{
-            marginLeft: "0.5rem",
-            fontSize: "1.8rem",
-            fontStyle: "normal",
-            fontWeight: "bold",
-            color: "red",
-          }}
-        >
-          Continue Shopping
-        </span>
-      </Link>
+      {products.length > 0 && (
+        <NavLink to={"/Checkout"}>
+          <button className="checkout">CheckOut</button>
+        </NavLink>
+      )}
+      {products.length > 0 && (
+        <Link style={{ marginLeft: "-80rem" }} to={"/Products"}>
+          <Link
+            style={{ fontSize: "1.8rem", color: "red" }}
+            className="fa-solid fa-arrow-right"
+          ></Link>
+          <span
+            className="span"
+            style={{
+              marginLeft: "0.5rem",
+              fontSize: "1.8rem",
+              fontStyle: "normal",
+              fontWeight: "bold",
+              color: "red",
+            }}
+          >
+            Continue Shopping
+          </span>
+        </Link>
+      )}
     </section>
   );
 };

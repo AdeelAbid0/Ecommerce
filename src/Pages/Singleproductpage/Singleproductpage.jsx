@@ -48,9 +48,9 @@ const Singleproductpage = () => {
   };
 
   return (
-    <section className="text-gray-600 body-font overflow-hidden">
-      <div className="container px-5 py-24 mx-auto">
-        <div className="lg:w-4/5 mx-auto flex flex-wrap">
+    <section className="singlepage text-gray-600 body-font overflow-hidden">
+      <div className=" container px-5 py-24 mx-auto">
+        <div className=" inner lg:w-4/5 mx-auto flex flex-wrap">
           <img
             alt="ecommerce"
             className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded hover:scale-90 transition-transform duration-300 ease-in cursor-pointer"
@@ -58,26 +58,26 @@ const Singleproductpage = () => {
           />
 
           <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-            <h2 className="text-2xl title-font text-gray-500 tracking-widest capitalize">
+            <h2 className="text-2xl title-font text-black  tracking-widest capitalize">
               {product.category}
             </h2>
-            <h1 className="text-gray-900 text-3xl title-font font-medium mb-1 capitalize">
+            <h1 className="text-black text-3xl title-font font-medium mb-1 capitalize">
               {product.name}
             </h1>
             <div className="flex mb-4">
-              <span className="flex items-center">
+              <span className="flex items-center text-black">
                 <Star stars={product.stars} />
-                <span className="text-gray-600 text-xl ml-3">
+                <span className="text-black text-xl ml-3">
                   ({product.reviews} Customer Reviews)
                 </span>
               </span>
             </div>
-            <p className="leading-relaxed text-2xl mr-28">
+            <p className="leading-relaxed text-2xl mr-28 text-black">
               {product.description}
             </p>
             <div className="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5">
               <div className="flex">
-                <span className="mr-3">Color</span>
+                <span className="mr-3 text-black text-xl">Color</span>
                 {product.colors.map((curcolor, index) => (
                   <div
                     onClick={() => handleselectedcolor(curcolor)}
@@ -99,7 +99,7 @@ const Singleproductpage = () => {
               <div className="flex ml-6 items-center"></div>
             </div>
             <div className="flex">
-              <span className="title-font mt-3 ml-4 font-medium text-2xl text-gray-900">
+              <span className="title-font mt-3 ml-4 font-medium text-2xl text-black">
                 MRP:
                 <del>
                   <Formatprice price={product.price + 250000} />

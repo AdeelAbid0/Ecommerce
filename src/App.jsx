@@ -12,6 +12,8 @@ import Cart from "./Pages/Cart/Cart";
 import "./Pages/Cart/Cart.css";
 import Singleproductpage from "./Pages/Singleproductpage/Singleproductpage";
 import "./Pages/Singleproductpage/Singleproductpage.css";
+import Checkout from "./Pages/Checkout/Checkout";
+
 const App = () => {
   return (
     <>
@@ -34,6 +36,10 @@ const App = () => {
         </Route>
         <Route path="/Singleproductpage/:id" element={<Singleproductpage />}>
           Singleproductpage
+        </Route>
+        ut
+        <Route path="/Checkout" element={<Checkout />}>
+          Checkout
         </Route>
       </Routes>
       <Footer />

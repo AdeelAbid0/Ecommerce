@@ -19,7 +19,6 @@ html {
   grid-template-columns: 100%;
   bottom: 0;
   background-color: rgb(240, 232, 232);
-  margin-top: 6rem;
   position: relative;
   width: 100%;
 }

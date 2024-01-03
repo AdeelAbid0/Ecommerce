@@ -13,7 +13,7 @@ const Cartslice = createSlice({
       if (!existingProduct) {
         state.push({ ...action.payload, quantity: 1 });
       } else {
-        alert("Already added this product to cart");
+        existingProduct.quantity += 1;
       }
     },
     remove(state, action) {

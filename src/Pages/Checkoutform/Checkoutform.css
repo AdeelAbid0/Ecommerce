@@ -1,0 +1,25 @@
+.paymentform {
+  /* align-items: center;
+  justify-content: center;
+  padding: 15rem 15rem 0rem 15rem; */
+  width: 55rem;
+  margin-left: 46rem;
+  margin-top: 10rem;
+}
+.paymentformbtn {
+  width: 10rem;
+  height: 5rem;
+  border: 0.1rem solid black;
+  background-color: rgba(16, 16, 192, 0.726);
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  cursor: pointer;
+  border-radius: 1rem;
+  margin-left: 70rem;
+  margin-top: 3rem;
+  color: white;
+}
+.paymentformbtn:hover {
+  background-color: rgba(15, 15, 199, 0.541);
+}

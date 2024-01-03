@@ -82,7 +82,7 @@ td {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   text-transform: capitalize;
-  margin-left: 97rem;
+  margin-left: 93rem;
   border-radius: 1rem;
   margin-top: 5rem;
   text-align: start;
@@ -96,4 +96,22 @@ td {
 
 button.totalprice:hover {
   background-color: #b92929;
+}
+.checkout {
+  width: 10rem;
+  height: 6rem;
+  font-size: 1.6rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-left: 0.5rem;
+  border-radius: 1rem;
+  margin-top: 5rem;
+  text-align: start;
+  padding-left: 1rem;
+  background-color: #db3434;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
 }
