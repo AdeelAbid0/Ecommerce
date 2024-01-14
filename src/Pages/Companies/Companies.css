@@ -1,0 +1,69 @@
+.companycontainer {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 128%;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+.companychild1 {
+  background-color: rgb(243, 236, 236);
+  text-align: center;
+  padding-top: 3rem;
+  cursor: pointer;
+}
+.companychild1 p {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "Times New Roman", Times, serif;
+}
+.companychild1 h1 {
+  text-align: center;
+  display: inline;
+  padding: 1rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+}
+.companychild1 i {
+  text-align: center;
+  display: inline;
+}
+@media (max-width: 615px) {
+  .companychild1 {
+    padding-left: 13rem;
+    padding-right: 13rem;
+  }
+  .companychild1 .logobtn {
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 559px) {
+  .companychild1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media (max-width: 497px) {
+  .companychild1 {
+    padding-left: 7rem;
+    padding-right: 5rem;
+  }
+}
+@media (max-width: 446px) {
+  .companychild1 {
+    padding-left: 4rem;
+    padding-right: 0rem;
+  }
+}
+@media (max-width: 383px) {
+  .companychild1 {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+}
+@media (max-width: 322px) {
+  .companychild1 h1 {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+}

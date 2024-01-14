@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contactmain {
+  background-image: url("/contact1.jpg");
+}
+.h1 {
+  font-weight: 600;
+  font-size: 2.4rem;
+  color: white;
+  text-align: center;
+  margin-left: 0rem;
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 4rem;
+}
+.contactcontainer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  justify-content: center;
+  padding-bottom: 10rem;
+}
+
+.contactchild1 .map {
+  text-align: center;
+  margin-top: 7rem;
+  margin-left: 18rem;
+  border: 0.1 rm solid black;
+  height: 35rem;
+  backdrop-filter: blur(1rem);
+  border-radius: 2rem;
+}
+.contactchild2 {
+  margin-left: -10rem;
+}
+.contactchild2 :hover {
+  background-color: rgba(245, 234, 234, 0);
+}
+.form {
+  background-color: rgba(233, 226, 226, 0.123);
+  width: 50rem;
+  height: 35rem;
+  border-radius: 1rem;
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin-top: 7rem;
+  border: 0.1rem solid rgb(107, 107, 107);
+  margin-left: 10rem;
+  cursor: pointer;
+  padding-top: 3rem;
+  border: 0.1rem solid white;
+  backdrop-filter: blur(1rem);
+  text-transform: capitalize;
+}
+
+.contactchild2 form input {
+  width: 15rem;
+  height: 4rem;
+  margin: 1rem;
+  margin-top: 4rem;
+  font-size: 1.4rem;
+  padding-left: 0.5rem;
+  border: 0.1rem solid rgba(255, 255, 255, 0.527);
+  border-radius: 0.5rem;
+
+  background-color: rgba(31, 30, 30, 0.144);
+}
+.contactchild2 form textarea {
+  background-color: rgba(31, 30, 30, 0.144);
+  font-size: 1.4rem;
+  padding-left: 0.5rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid rgba(255, 255, 255, 0.527);
+}
+.contactchild2 .btn {
+  margin-left: 20rem;
+  margin-top: 1rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.658);
+  border: 0.1rem solid rgba(34, 34, 34, 0.644);
+}
+@media (max-width: 1378px) {
+  .contactchild1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contactchild2 {
+    margin-left: -7rem;
+    margin-right: auto;
+  }
+}
+@media (max-width: 1320px) {
+  .contactchild1 {
+    margin-left: -10rem;
+  }
+}
+@media (max-width: 1130px) {
+  .contactchild1 {
+    margin-left: -15rem;
+  }
+}
+@media (max-width: 1082px) {
+  .contactcontainer {
+    display: block;
+  }
+  .contactchild1 .map {
+    width: 70%;
+    margin-left: 20%;
+  }
+  .contactchild2 {
+    margin-left: 15%;
+  }
+}
+@media (max-width: 998px) {
+  .contactchild2 {
+    margin-left: 20%;
+  }
+}
+@media (max-width: 900px) {
+  .contactchild2 {
+    margin-left: 15%;
+  }
+}
+@media (max-width: 782px) {
+  .contactchild2 {
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 700px) {
+  .contactchild2 {
+    margin-left: 5%;
+  }
+}
+@media (max-width: 630px) {
+  .contactchild2 .form {
+    margin-left: 12%;
+    width: 72%;
+  }
+  .contactchild1 .map {
+    width: 55%;
+    margin-left: 32%;
+  }
+}
+@media (max-width: 460px) {
+  .contactchild2 .form {
+    margin-left: 14%;
+    width: 72%;
+  }
+  .contactchild1 .map {
+    width: 55%;
+    margin-left: 35%;
+  }
+}
+@media (max-width: 450px) {
+  .contactchild2 .form input {
+    width: 50%;
+    margin: 1rem;
+  }
+  .contactchild2 .form textarea {
+    width: 50%;
+    margin: 1rem;
+  }
+  .contactchild2 .form button {
+    margin: 1rem;
+  }
+}
